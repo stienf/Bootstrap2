@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="example.css">
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-12">
+        <span class="badge badge-danger width-10 Stien">This is a warning</span> <!-- badge -->
+        <div class="jumbotron">
+
+          <div class="btn-group btn-group-lg btn-group-vertical"> <!--make vertical menu-->
+            <button type="button" class="btn btn-primary">Home</button>
+            <button type="button" class="btn btn-warning">Here</button>
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Dropdown Menu
+              <span class="caret"></span> 
+              <!-- add icon to dropdown menu, but u have to use the bootstrap 3 library (copy in head) -->
+              <!--Drop down menu with seperate arrow, only works when horizontal-->
+              <button type="button" class="btn btn-info">seperate</button>
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+            </button>
+            
+          </div>
+        </div>
+
+            <p>
+              <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#contentId" aria-expanded="false"
+                  aria-controls="contentId">
+                Show my Data
+              </button>
+            </p>
+            <div class="collapse" id="contentId">
+              <div class="jumbotron">
+                <h1 class="display-3">Jumbo heading</h1>
+                <p class="lead">Jumbo helper text</p>
+                <hr class="my-2">
+                <p>More info</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+                </p>
+              </div>
+            </div> <!-- add by using b4-collapse-button, you can change text into f.e. b4-jumbotron to add heading on click -->
+          
+
+
+            <p>
+              <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Mydata" aria-expanded="false"
+                  aria-controls="Mydata">
+                Show my Data
+              </button>
+            </p>
+            <div class="collapse" id="Mydata">
+             Second Data
+            </div> <!-- add by using b4-collapse-button, you can change text into f.e. b4-jumbotron to add heading on click -->
+
+
+
+
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="">menu1</a></li> <!-- makes it a link, change ID if you add more -->
+              <li>menu2</li>
+            </ul>
+          </div>
+          <span class="badge badge-danger">This is a warning</span> <!-- badge -->
+          <button type="button" class="btn btn-danger">Notification <span class="badge badge-info">5</span></button> <!-- notification badge in button-->
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar bg-info" id="progress" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Loading</div>
+        </div>
+      </div>
+    
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
